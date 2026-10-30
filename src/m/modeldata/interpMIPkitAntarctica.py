@@ -26,8 +26,8 @@ def interpMIPkitAntarctica(X, Y, string, ncfile=None, default_value=0): # {{{
         - vy_timeseries          (time series, nsidc-0720, Mouginot et al. 2017)
         - dhdt_smith             (2003-2019, Smith et al. 2020)
         - dhdt_cpom              (time series, ESA AIS CCI/CPOM, Shepherd et al. 2019)
-        - geothermal_heat_flux1  (Stal et al. 2021, Aq1) [NOT SURE ?!]
-        - geothermal_heat_flux2  (Losing & Ebbing 2021)  [NOT SURE ?!]
+        - geothermal_heat_flux1  (Stal et al. 2021, Aq1) 
+        - geothermal_heat_flux2  (Losing & Ebbing 2021) 
 
     For time series fields, the output has shape (len(X)+1, ntimes): the last
     row holds the time (decimal years). For other fields the output has the
